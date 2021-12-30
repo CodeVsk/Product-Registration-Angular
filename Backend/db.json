@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Batata",
-      "price": 10
+      "price": "12"
     },
     {
       "id": 2,
