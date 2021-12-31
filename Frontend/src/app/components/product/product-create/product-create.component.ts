@@ -27,7 +27,7 @@ export class ProductCreateComponent implements OnInit {
 
   createProduct(): void{
     this.productService.createProduct(this.product).subscribe(()=>{
-      this.productService.showMessage("Product created successfully!");
+      this.productService.showMessage("Product created successfully!", false);
       this.router.navigate(["/products"]);
     });
     
